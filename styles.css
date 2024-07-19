@@ -1,0 +1,115 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Silkscreen';
+    /* border: none !important; */
+}
+.container{
+    margin: 0 300px 0 300px;
+    text-align: center;
+    border: 2px solid;
+}
+.img-selected{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 100px 0 100px;
+}
+
+.you-selected, .bot-selected{
+    height: 80px;
+    width: 80px;
+    border:2px solid;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.you-selected{
+    border: 2px solid red;
+}
+
+img{
+    height: 80%;
+}
+
+.your-box, .bot-box{
+    /* border: 2px solid; */
+    display: flex;
+    flex-direction: column;
+    align-items:center ;
+}
+
+
+.display-selected{
+    /* border: 2px solid; */
+    display: block;
+    display: none;
+}
+
+.title{
+    width: 100%;
+    /* border: 2px solid; */
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.score{
+    border: 2px solid;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 10px;
+}
+
+
+/* select items */
+.select-here{
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+.select-item{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.select{
+    /* border: 2px solid; */
+    display: flex;
+    flex-direction: column;
+    align-items:center ;
+}
+
+#rock, #paper, #scissers {
+    height: 80px;
+    width: 80px;
+    border:2px solid red;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h2{
+    margin-top: 20px;
+}
+
+button {
+    /* display: inline; */
+    display: none;
+}
+
+
+#your-score{
+    color: red;
+}
+
+.root-body{
+    margin-top: 20px;
+}
